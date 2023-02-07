@@ -1,6 +1,7 @@
 fun main(){
 list()
     changeList()
+    array()
 }
 
 // list
@@ -19,6 +20,12 @@ fun changeList(){
 
 }
 fun array(){
-    val school = arrayOf("shark", "salmon", "minnow")
-    println(java.util.Arrays.toString(school))
+    val school = arrayListOf("shark", "salmon", "minnow")
+    println(school)
+    val numbers = intArrayOf(1,2,3)
+    val numbers3 = intArrayOf(4,5,6)
+   
+    val foo2 = numbers3 + numbers
+    println(foo2[5])
+
 }
