@@ -4,7 +4,7 @@ fun main() {
 
 
 
-    print("Enter an integer n: ")
+    print("Enter number of rows : ")
     val n = readLine()!!.toInt()
 
 
