@@ -1,7 +1,7 @@
-package com.example.recycleview.data
+package com.example.affirmations.data
 
-import com.example.recycleview.R
-import com.example.recycleview.model.Affirmation
+import com.example.affirmations.R
+import com.example.affirmations.model.Affirmation
 
 class Datasource {
     fun loadAffirmations(): List<Affirmation> {
@@ -17,6 +17,5 @@ class Datasource {
             Affirmation(R.string.affirmation9),
             Affirmation(R.string.affirmation10)
         )
-
     }
 }
